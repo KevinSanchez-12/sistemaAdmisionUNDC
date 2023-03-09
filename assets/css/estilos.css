@@ -1,0 +1,322 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.max-container {
+  width: 97%;
+  max-width: 2000px;
+  margin: auto;
+}
+.titulo {
+  font-size: 2rem;
+  margin-top: 20px;
+}
+.titulo span {
+  color: #198754 !important;
+  font-weight: 800;
+}
+.parrafo {
+  font-size: 1rem;
+  margin-top: 20px;
+}
+.subtitulo {
+  font-size: 1.2rem;
+  font-weight: 800;
+  margin-top: 20px;
+}
+.titulo-modal {
+  font-size: 1.2rem !important;
+  font-weight: 800 !important;
+  color: #000 !important;
+  margin-top: 10px !important;
+}
+.checboxs .item {
+  display: flex;
+  align-items: start;
+  justify-content: left;
+}
+.checboxs .item .input {
+  margin-top: 0 !important;
+  height: 100%;
+}
+.checboxs .item .content {
+  width: 100%;
+  margin-left: 10px;
+}
+.campos {
+  display: grid;
+  margin-top: 20px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+}
+.btn-opcion {
+  width: 100% !important;
+  height: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.terminal {
+  background-image: url(../img/fondos/1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+.box-terminal {
+  background-color: #fff !important;
+  padding: 20px;
+  border-radius: 10px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.box-terminal .logo {
+  height: 100px;
+}
+.box-terminal h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-top: 20px;
+  text-align: center;
+}
+.nav-link {
+  color: rgb(90, 90, 90) !important;
+}
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+  font-weight: 800 !important;
+  color: #000 !important;
+}
+th,
+td {
+  text-align: center !important;
+  margin: auto !important;
+}
+.kr-embedded {
+  background-color: #fff !important;
+  width: 290px;
+  padding: 20px !important;
+  border-radius: 10px;
+}
+.kr-embedded .logo {
+  height: 100px;
+  margin: auto;
+  display: flex;
+  margin-bottom: 20px;
+}
+.kr-embedded h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-top: 20px;
+}
+.kr-embedded .tap {
+  background-color: #fff;
+  width: 100%;
+  height: 55px;
+  position: absolute;
+  z-index: 1;
+}
+.kr-form-error {
+  font-size: 1rem;
+  background-color: #fff;
+  border: 1px solid #000;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  text-align: center;
+  padding: 10px;
+  margin-top: -20px;
+}
+.kr-payment-button {
+  height: 40px;
+  font-size: 0.9rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #fff !important;
+  background-color: green !important;
+  transition: 0.3s;
+  text-transform: uppercase;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: 5px;
+  z-index: 2;
+}
+.input-text {
+  height: 32px;
+  font-size: 0.9rem;
+  padding-left: 7px;
+  padding-right: 7px;
+  padding-top: 10px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  outline: none;
+}
+.kr-embedded .form-control {
+  height: 40px !important;
+  margin-bottom: 10px;
+}
+.fondoPasarela {
+  background-image: url(../img/fondos/1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+.kr-installment-number {
+  display: none !important;
+}
+.kr-first-installment-delay {
+  display: none !important;
+}
+.kr-form-error-visible {
+  margin-top: 20px;
+}
+.login {
+  background-image: url(../img/fondos/1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  min-height: 100vh;
+  width: 100vw;
+}
+.login form {
+  background-color: #fff !important;
+  padding: 20px;
+  border-radius: 10px;
+  width: 400px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.login form .logo {
+  height: 100px;
+}
+.login form h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-top: 20px;
+}
+.kr-embedded .images{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 10px;
+  margin-bottom: 25px;
+}
+.kr-embedded .images img{
+  height: 21px;
+}
+.pasos{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 10px;
+  align-items: center;
+}
+.pasos img{
+  height: 350px;
+  margin: auto;
+}
+.parpadeo{
+  padding: 5px 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #fff;
+  background-color: red;
+  animation: parpadeo 1s infinite;
+}
+@keyframes parpadeo{
+  0%{
+    background-color: yellow;
+    color: #000;
+  }
+  50%{
+    background-color: red;
+    color: #fff;
+  }
+  100%{
+    background-color: yellow;
+    color: #000;
+  }
+}
+.asterisco {
+  color: red;
+  font-size: 1rem;
+  font-weight: 700;
+  margin-left: 5px;
+}
+@media (max-width: 1200px) {
+  .pasos{
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 990px){
+  .pasos{
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 10px;
+  }
+  .pasos img{
+    height: 250px;
+  }
+}
+@media (max-width: 800px) {
+  .campos {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 600px) {
+  .campos {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+@media (max-width: 400px) {
+  .campos {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .box-terminal {
+    width: 95%;
+  }
+  .login {
+    height: 100%;
+    min-height: 100%;
+    padding: 10px 0px;
+  }
+  .login form {
+    width: 95%;
+  }
+}
+@media (max-width: 350px) {
+  .text-inscribir {
+    display: grid;
+    row-gap: 10px;
+  }
+}
